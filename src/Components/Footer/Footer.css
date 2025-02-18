@@ -1,0 +1,118 @@
+.footer{
+    margin-top: 20vh;
+    height: 100vh;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+.contact{
+    background-color: #8CA5FF;
+    height: 100%;
+    padding: 0vh 10vw;
+    padding-top: 10vh;
+    border-radius: 80px 80px 0px 0px;
+    border: 1px solid #344C45;
+    display: flex;
+    justify-content: space-between;
+}
+.left-contact,.right-contact{
+    height: 30vh;
+}
+.left-contact h4{
+    font-family: font2;
+    font-size: 50px;
+    color: #344C45;
+    margin-bottom: 10px;
+}
+.left-contact p{
+    font-family: font1;
+    font-size: 25px;
+    color: #344C45;
+}
+.left-contact p{
+    font-family: font1;
+    font-size: 25px;
+    color: #344C45;
+}
+.right-contact i{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #344C45;
+    color: #344C45;
+    background: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.oncontact{
+    background-color: #F9F3E9;
+    height: 50vh;
+    width: 78.8vw;
+    padding: 20vh 10vw;
+    border-radius: 80px 80px 0px 0px;
+    border: 1px solid #344C45;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -15%;
+    z-index: 33;
+    
+}
+.foot{
+    background-color: #344C45;
+    padding: 20vh 10vw;
+    border-radius: 80px 80px 0px 0px;
+    position: absolute;
+    width: 78.8vw;
+    height: 100%;
+    top: 25%;
+    border: 1px solid #344C45;
+    display: flex;
+    justify-content: space-between;
+    z-index: 55;
+}
+.left-foot{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    height: 30%;
+}
+.left-foot h6{
+    font-family: font1;
+    font-size: 26px;
+    font-weight: 400;
+    color: #F9F3E9;
+    margin: 15px;
+    cursor: pointer;
+}
+/* .rgt h6{
+    font-family: font1;
+    font-size: 26px;
+    font-weight: 400;
+    color: #F9F3E9;
+    margin: 15px;
+} */
+
+.right-foot{
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.lft-foot h6{
+    font-family: font1;
+    font-size: 22px;
+    font-weight: 400;
+    color: #F9F3E9;
+    margin: 15px;
+}
+.lft-foot a{
+    color: #F9F3E9;
+}
+.footer svg{
+    position: absolute;
+    background-color: #F9F3E9;
+    height: 90vh;
+    z-index: 99;
+}

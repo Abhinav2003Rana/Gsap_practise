@@ -1,0 +1,44 @@
+.main{
+    background-color: #C3CEBD;
+    height: 130vh;
+    padding: 10vh 0;
+    position: relative;
+    overflow-x: hidden;
+}
+.scroller{
+    background-color: #F9F3E9;
+    height: 25vh;
+    width: fit-content;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 44;
+}
+.scroller h2{
+    font-family: font3;
+    font-size: 160px;
+    color: #344C45;
+}
+.one{
+    top: 20vh;
+    left: -50%;
+    transform: rotate(18deg);
+}
+.two{
+    top: 35vh;
+
+}
+.three{
+    top: 45vh;
+    left: 0;
+    transform: rotate(-15deg);
+}
+.four{
+    top: 70vh;
+    right: 0;
+}
+.five{
+    top: 100vh;
+    transform: rotate(-20deg);
+}

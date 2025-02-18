@@ -1,0 +1,57 @@
+.Sectionone{
+    width: 100%;
+    height: 110vh;
+    background-color: #C3CEBD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section{
+    margin: 0px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.nums{
+    margin-top: 80px;
+    width: 30%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.nums h2{
+    font-size: 80px;
+    font-family: font3;
+    color: #C3CEBD;
+    -webkit-text-stroke: 1px #344C45;
+
+}
+.nums h5{
+    font-family: font2;
+    font-size: 26px;
+    color: #344C45;
+    margin: 20px 0px;
+    line-height: 1.3;    
+}
+.nums span{
+    opacity: 0;
+    background-color:#EFE2FC ;
+    padding: 10px;
+    border: none;
+    font-family: font1;
+    color: #344C45;
+    font-size: 16px;
+}
+.nums:hover h2{
+    color: #EFE2FC;
+}
+.nums:hover span{
+    opacity: 1;
+}
+.curve{
+    display: flex;
+    justify-content: center;
+}

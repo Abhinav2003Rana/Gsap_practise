@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    margin: 20px 60px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #F9F3E9;
+    /* background-color: red; */
+    /* position: sticky; */
+    /* top: 3%; */
+    transition: ease-in-out 0.2s;
+    z-index: 9999;
+}
+.left-side{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-side svg{
+    cursor: pointer;
+}
+.right-side{
+    display: flex;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+.right-side li{
+    height: 50%;
+    transition: all ease 0.4s;
+    overflow-y: hidden;
+}
+.right-side li:hover #one{
+    transform: translateY(-100%);
+    transition: all ease-in-out 0.4s;
+}
+.right-side li:hover #one{
+    transform: translateY(100%);
+    transition: all ease-in-out 0.4s;
+}
+.right-side li:hover #two{
+    transform: translateY(-100%);
+    transition: all ease-in-out 0.4s;
+}
+.right-side h6{
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: font2;
+    color: #344C45;
+    cursor: pointer;
+}
+.right-side i{
+    font-size: 26px;
+    color: #344C45;
+    cursor: pointer;
+}
+.side-bar{
+    width: 100%;
+    height: 91%;
+    top: -120%;
+    left: 0;
+    z-index: 99;
+    position: absolute;
+    background-color: #8ca5ff6d;
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 80px 80px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.side-bar h4{
+    font-family: font3;
+    font-size: 60px;
+    line-height: 1.5;
+    cursor: pointer;
+    color: #344C45;
+    font-weight: 800;
+}
+.rightdiv i{
+    font-size: 40px;
+    cursor: pointer
+}
+

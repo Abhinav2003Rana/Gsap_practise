@@ -1,0 +1,86 @@
+.hero{
+    height: 80vh;
+    display: flex;
+    margin: 60px;
+    overflow-x: hidden;
+}
+.left-hero{
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.left-hero h1{
+    font-size: 86px;
+    font-family: font3;
+    color: #344C45;
+}
+.right-hero{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.right-hero h1{
+    font-size: 90px;
+    font-family: font3;
+    color: #344C45;
+}
+.right-hero .right-btns{
+    width: 80%;
+    display: flex;
+    padding: 20px 0px;
+}
+.leftbt{
+    background-color: #344C45;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #344C45;
+    overflow-x: hidden;
+}
+.leftbt span{
+    transform: translateX(-120%);
+    transition: all ease-in-out 0.4s;
+    font-size: 22px;
+    color: #F9F3E9;
+    font-family: font2;
+}
+.leftbt:hover span{
+    transform: translateX(0%);
+    transition: all ease-in-out 0.4s;
+}
+.rightbt{
+    background-color: #F9F3E9;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #344C45;
+    overflow-x: hidden;
+}
+.rightbt span{
+    transform: translateX(120%);
+    transition: all ease-in-out 0.4s;
+    font-size: 22px;
+    color: #344C45;
+    font-family: font2;
+}
+.rightbt:hover span{
+    transform: translateX(0%);
+    transition: all ease-in-out 0.4s;
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: font1;
+  src: url(../public/font1);
+}
+@font-face {
+  font-family: font2;
+  src: url(../public/font2);
+}
+@font-face {
+  font-family: font3;
+  src: url(../public/font3);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  
+}
+body{
+  background-color: #F9F3E9;
+}
+.App{
+  font-size: 2rem;
+  margin: 80px;
+  font-family: font3;
+}
